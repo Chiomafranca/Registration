@@ -16,7 +16,7 @@ const LeftSide = () => {
                         </div>
                         <div className="flex items-center">
                             <h1 className=""> NokRelationship</h1>
-                            <div className="relative left-[10px] w-full lg:w-4/2 p-2 mt-3">
+                            <div className="relative left-[10px] w-[100%] lg:w-4/2 p-2 mt-3">
                                 <div className="absolute inset-0 border-2 border-black/35"></div>
                                 <div className="absolute inset-0 w-[9rem] lg:border-b-4 "></div>
                                 <MdOutlineKeyboardArrowDown className="float-right relative z-10" />
@@ -25,7 +25,7 @@ const LeftSide = () => {
 
                         <div className=" flex items-center gap-2">
                             <h1>NokNumber</h1>
-                            <div className="relative left-[1.80rem] w-full lg:lg:w-[188px] sm:w-2/3 p-2 mt-1">
+                            <div className="relative left-[1.80rem] w-[100%] lg:w-[188px] p-2 mt-1">
                                 <div className="absolute inset-0 border-t-2 border-black/35"></div>
                                 <div className="absolute inset-0 border-l-2 h-7 mb-3 w-10 border-black/35"></div>
                             </div>
@@ -33,7 +33,7 @@ const LeftSide = () => {
 
                         <div className=" flex items-center mt-2">
                             <h1 className=" relative top-7">AddressofNok</h1>
-                            <div className="relative left-[1.55rem] top-2 w-full lg:lg:w-[190px] sm:w-1/3 p-2">
+                            <div className="relative left-[1.55rem] top-2 w-[100%] lg:w-[190px] sm:w-1/3 p-2">
                                 <div className="absolute inset-0 border-t-2 border-black/35"></div>
                                 <div className="absolute inset-0 border-l-2 h-[60px] mb-3 w-10 border-black/35"></div>
                                 <div className=" flex-col">
@@ -54,7 +54,7 @@ const LeftSide = () => {
 
                 <div className=" flex items-center gap-5 ml-14">
                     <h1>Reg Date</h1>
-                    <div className="relative w-full sm:w-1/4 mt-3 flex">
+                    <div className="relative w-[100%] lg:w-1/4 mt-3 flex">
 
                         <div className="absolute inset-0 border-2 border-black/35"></div>
                         <div className="absolute inset-0 w-28 border-b-4 "></div>
@@ -85,7 +85,7 @@ const LeftSide = () => {
                 <div className=" flex items-center gap-6">
                     <div className=" flex items-center gap-5 ml-14">
                         <h1>Exp Date</h1>
-                        <div className="relative w-full sm:w-[190px] mt-3 flex">
+                        <div className="relative w-[100%] lg:w-[190px] mt-3 flex">
 
                             <div className="absolute inset-0 border-2 border-black/35"></div>
                             <div className="absolute inset-0 w-40 border-b-4 "></div>
@@ -119,7 +119,7 @@ const LeftSide = () => {
                 <div className=" flex items-center ml-10 gap-12">
                     <div className=" flex items-center gap-2">
                         <h1>maritalStatus</h1>
-                        <div className="relative w-[250px] p-2 mt-3">
+                        <div className="relative w-[100%] lg:w-[250px] p-2 mt-3">
                             <div className="absolute inset-0 border-2 border-black/35"></div>
                             <div className="absolute inset-0 w-[13rem] lg:border-b-4 "></div>
                             <MdOutlineKeyboardArrowDown className="float-right relative z-10" />
@@ -127,31 +127,25 @@ const LeftSide = () => {
                     </div>
                     <div className=" flex items-center gap-2">
                         <h1>Religion</h1>
-                        <div className="relative w-[250px] p-2 mt-3">
+                        <div className="relative w-[100%] lg:w-[250px] p-2 mt-3">
                             <div className="absolute inset-0 border-2 border-black/35"></div>
                             <div className="absolute inset-0 w-[13rem] lg:border-b-4 "></div>
                             <MdOutlineKeyboardArrowDown className="float-right relative z-10" />
                         </div>
                     </div>
                 </div>
-                {/* 
-                <div className="flex items-center gap-3 mt-2 ml-10">
-                    <h1 className="">Occupation</h1>
-                    <div className="relative left-2 p-2">
-                        <div className="absolute inset-0 border-t-2 border-l-2 w-[614px] h-6 border-black/35"></div>
-                    </div>
-                </div> */}
+
 
                 <div className="flex items-center gap-3 mt-2 ml-10">
                     <h1 className="">OfficeName</h1>
                     <div className="relative left-2 p-2">
-                        <div className="absolute inset-0 border-t-2 border-l-2 w-[614px] h-6 border-black/35"></div>
+                        <div className="absolute inset-0 border-t-2 border-l-2 w-[100%] lg:w-[614px] h-6 border-black/35"></div>
                     </div>
                 </div>
 
                 <div className="flex items-center ml-4 gap-3 ">
                     <h1 className=""> NokRelationship</h1>
-                    <div className="relative w-[450px] p-2 mt-3">
+                    <div className="relative w-full lg:w-[450px] p-2 mt-3">
                         <div className="absolute inset-0 border-2 border-black/35"></div>
                         <div className="absolute inset-0 w-[26rem] lg:border-b-4 "></div>
                         <MdOutlineKeyboardArrowDown className="float-right relative z-10" />
@@ -168,10 +162,10 @@ const LeftSide = () => {
                     <div className=" border-t-2 relative top-6 left-[12.50rem] w-[200px] border-black/40">
 
                     </div>
-                    <div className=" border-r-2 border-l-2 border-b-2 p-10 relative right-[1px] mt-6 w-[400px] border-black/40">
+                    <div className=" border-r-2 border-l-2 border-b-2 p-10 relative right-[1px] mt-6 w-[100%] lg:w-[400px] border-black/40">
                         <div className="flex items-center">
                             <h1 className="">Clinic</h1>
-                            <div className="relative left-[10px] w-full lg:w-4/2 p-2 mt-3">
+                            <div className="relative left-[10px] w-[100%] lg:w-4/2 p-2 mt-3">
                                 <div className="absolute inset-0 border-2 border-black/35"></div>
                                 <div className="absolute inset-0 w-[9rem] lg:border-b-4 "></div>
                                 <MdOutlineKeyboardArrowDown className="float-right relative z-10" />
@@ -179,7 +173,7 @@ const LeftSide = () => {
                         </div>
                         <div className="flex items-center">
                             <h1 className="">purpose</h1>
-                            <div className="relative left-[10px] w-full lg:w-4/2 p-2 mt-3">
+                            <div className="relative left-[10px] w-[100%] lg:w-4/2 p-2 mt-3">
                                 <div className="absolute inset-0 border-2 border-black/35"></div>
                                 <div className="absolute inset-0 w-[9rem] lg:border-b-4 "></div>
                                 <MdOutlineKeyboardArrowDown className="float-right relative z-10" />
