@@ -6,7 +6,7 @@ import { IoIosArrowUp } from "react-icons/io";
 const LeftSide = () => {
     return (
         <>
-            <div className=" ml-5 overflow-hidden">
+            <div className=" ml-5 overflow-x-hidden">
                 <h1 className="pl-2">Next of Kin (Nok)</h1>
                 <div className="flex justify-around ">
                     <div>

@@ -8,7 +8,7 @@ const RightSide = () => {
 
     return (
         <>
-            <div className=" ml-5">
+            <div className=" ml-5 overflow-x-hidden">
                 <div className=" flex gap-2  items-center w-full">
 
                     <p className="text-black/60 flex mt-3"><b>NewExisting Reg</b></p>
